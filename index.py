@@ -1,5 +1,7 @@
 from appliances import (DishWasher, 
                         Refrigerator,
+                        CoffeeMaker,
+                        CanOpener,
                         Washer,
                         Dryer)
 
@@ -14,3 +16,6 @@ lg_fridge.make_ice()
 
 mr_coffee = CoffeeMaker("white")
 mr_coffee.make_coffee()
+
+sir_canopener = CanOpener("red")
+sir_canopener.open_can()
